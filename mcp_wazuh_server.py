@@ -78,4 +78,5 @@ async def analyze_ruleset() -> str:
 
 
 if __name__ == "__main__":
-    asyncio.run(mcp.run_stdio())
+    mcp.run()
+
